@@ -12,7 +12,7 @@ node_modules/
 /tests/e2e/snapshots/*
 /tests/unit/coverage/
 /cypress/*
-.sass-cache/
+.sass-cache/*
 
 # Local Env Files
 .env.local
