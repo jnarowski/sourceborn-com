@@ -4,3 +4,20 @@
 @import "partials/sections";
 @import "partials/footer";
 @import "partials/responsive";
+
+.skills--item {
+  clear: both;
+  display: block;
+  padding-top: 5px;
+}
+
+.skills--logo {
+  float: left;
+  display: block;
+}
+
+.skills--name {
+  margin-left: 50px;
+  padding-top: 3px;
+  display: block;
+}
