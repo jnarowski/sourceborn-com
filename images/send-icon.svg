@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>send-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-358.000000, -7428.000000)" fill="#FFFFFF">
+            <g id="contact" transform="translate(0.000000, 6612.000000)">
+                <g id="contact-form" transform="translate(144.000000, 380.000000)">
+                    <g id="send-button" transform="translate(0.000000, 416.000000)">
+                        <path d="M222.732396,35.3802815 L227.014083,44 L238,20 L214,31.4929593 L222.732396,35.3802815 Z M223.014084,34.4225346 L216.309859,31.4929593 L234.676055,22.6478867 L223.014084,34.4225346 Z M227.014083,41.8028171 L223.690138,35.098593 L235.464786,23.211268 L227.014083,41.8028171 Z" id="send-icon"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

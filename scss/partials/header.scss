@@ -1,0 +1,138 @@
+header {
+	background:url('../images/hero-background.svg') no-repeat top right;
+	background-size:auto 100%;
+
+	.container {
+		height:100vh;
+
+		.row {
+			height:100%;
+
+			.col-12 {
+				img {
+					-webkit-animation: 1s forwards linear slideDown;
+					-moz-animation: 1s forwards linear slideDown;
+					-o-animation: 1s forwards linear slideDown;
+					animation: 1s forwards linear slideDown;
+				}
+
+				p {
+					margin:100px 0 100px 0;
+					max-width:550px;
+					font-size:30px;
+					color:#000;
+					line-height:42px;
+					-webkit-animation: 1s forwards linear slideRight;
+					-moz-animation: 1s forwards linear slideRight;
+					-o-animation: 1s forwards linear slideRight;
+					animation: 1s forwards linear slideRight;
+				}
+				a {
+					display:inline-block;
+					width:64px;
+					height:64px;
+					background:url('../images/down-arrow.svg') no-repeat center center;
+					background-size:100% auto;
+					-webkit-animation: 1s forwards linear slideUp;
+					-moz-animation: 1s forwards linear slideUp;
+					-o-animation: 1s forwards linear slideUp;
+					animation: 1s forwards linear slideUp;
+				}
+			}
+		}
+	}
+	.icon {
+		position:absolute;
+		top:17px;
+		right:17px;
+		display:block;
+		width:32px;
+		height:30px;
+		background:url('../images/hamburger-icon.svg') no-repeat center center;
+		background-size:100% auto;
+		cursor:pointer;
+	}
+	.nav {
+		position:fixed;
+		display:table;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		width:100%;
+		height:100%;
+		background:#000;
+		opacity:0;
+		visibility:hidden;
+		z-index:1;
+		@include transition(0.5s);
+
+		span {
+			position:absolute;
+			top:16px;
+			right:16px;
+			width:32px;
+			height:32px;
+			background:url('../images/close-icon.svg') no-repeat center center;
+			background-size:100% auto;
+			cursor:pointer;
+			z-index:1;
+		}
+
+		div {
+			display:table-cell;
+			vertical-align:middle;
+
+			ul {
+				margin:0 0 0 0;
+				padding:0 80px 0 0;
+				width:100%;
+
+				li {
+					padding:20px 0 20px 0;
+					width:100%;
+					text-transform:lowercase;
+					float:left;
+
+					a {
+						position:relative;
+						font-family:$font-secondary;
+						font-size:32px;
+						font-weight:500;
+						color:#FFF;
+						float:right;
+					}
+
+					&:hover, &:focus {
+						a {
+							&:before {
+								position:absolute;
+								top:10px;
+								left:-60px;
+								width:48px;
+								height:16px;
+								background:url('../images/hover-arrow.svg') no-repeat center center;
+								background-size:auto 100%;
+								opacity:0;
+								content:'';
+								-webkit-animation: 0.25s forwards linear slideLeft;
+								-moz-animation: 0.25s forwards linear slideLeft;
+								-o-animation: 0.25s forwards linear slideLeft;
+								animation: 0.25s forwards linear slideLeft;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.open-nav {
+	header {
+		.nav {
+			opacity:1;
+			visibility:visible;
+		}
+	}
+}

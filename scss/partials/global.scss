@@ -1,0 +1,111 @@
+$font-primary:'Varela Round', sans-serif;
+$font-secondary:'Open Sans', sans-serif;
+
+@mixin transition($value) {
+	-webkit-transition:all $value ease-in-out;
+	-moz-transition: all $value ease-in-out;
+	-o-transition: all $value ease-in-out;
+	transition: all $value ease-in-out;
+}
+
+/*----- global styles  -----*/
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	font-family:$font-primary;
+	line-height:inherit;
+
+	* {
+		box-sizing:border-box;
+	}
+
+	div {
+		position:relative;
+		margin:0;
+
+		h1,h2,h3,h4,h5 {
+		
+		}
+
+		p, b {
+			font-family:$font-secondary;
+		}
+
+		p {
+			font-size:16px;
+		}
+
+		ul,ol {
+			margin:0;
+			padding:0;
+			list-style-type:none;
+		}
+
+		a {
+			&:hover {
+				text-decoration:none;
+			}
+		}
+
+		a,i,button,input {
+			text-decoration:none;
+			@include transition(0.20s);
+		}
+
+		fieldset, input, textarea, button {
+			margin:0;
+			padding:0;
+			font-family:$font-secondary;
+			outline:none;
+			border:none;
+			background:none;
+			outline:none;
+		}
+
+		input.invalid, textarea.invalid {
+			border:1px solid #F00;
+		}
+
+		select {
+			-webkit-appearance:none;
+			-moz-appearance:none;
+			appearance:none;
+			outline:none;
+		}
+		
+		&.container {
+			max-width:1140px;
+		}
+
+		.slide-left {
+			-webkit-animation: 1s forwards linear slideLeft;
+			-moz-animation: 1s forwards linear slideLeft;
+			-o-animation: 1s forwards linear slideLeft;
+			animation: 1s forwards linear slideLeft;
+		}
+		.slide-right {
+			-webkit-animation: 1s forwards linear slideRight;
+			-moz-animation: 1s forwards linear slideRight;
+			-o-animation: 1s forwards linear slideRight;
+			animation: 1s forwards linear slideRight;
+		}
+		.slide-up {
+			-webkit-animation: 1s forwards linear slideUp;
+			-moz-animation: 1s forwards linear slideUp;
+			-o-animation: 1s forwards linear slideUp;
+			animation: 1s forwards linear slideUp;
+		}
+		.slide-down {
+			-webkit-animation: 1s forwards linear slideDown;
+			-moz-animation: 1s forwards linear slideDown;
+			-o-animation: 1s forwards linear slideDown;
+			animation: 1s forwards linear slideDown;
+		}
+	}
+
+	header,main,section,article,aside,footer {
+		display:block;
+		width:100%;
+	}
+}

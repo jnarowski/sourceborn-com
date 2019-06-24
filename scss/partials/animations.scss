@@ -1,0 +1,167 @@
+/* ------ Slide Right ----- */
+@-webkit-keyframes slideRight {
+	0%{
+		transform:translateX(20px);
+		opacity:0;
+	}
+	100%{
+		transform:translateX(0);
+		opacity:1;
+	}
+}
+@-moz-keyframes slideRight {
+	0%{
+		transform:translateX(20px);
+		opacity:0;
+	}
+	100%{
+		transform:translateX(0);
+		opacity:1;
+	}
+}
+@-o-keyframes slideRight {
+	0%{
+		transform:translateX(20px);
+		opacity:0;
+	}
+	100%{
+		transform:translateX(0);
+		opacity:1;
+	}
+}
+@keyframes slideRight {
+	0%{
+		transform:translateX(20px);
+		opacity:0;
+	}
+	100%{
+		transform:translateX(0);
+		opacity:1;
+	}
+}
+
+/* ------ Slide Left ----- */
+@-webkit-keyframes slideLeft {
+	0%{
+		transform:translateX(-20px);
+		opacity:0;
+	}
+	100%{
+		transform:translateX(0);
+		opacity:1;
+	}
+}
+@-moz-keyframes slideLeft {
+	0%{
+		transform:translateX(-20px);
+		opacity:0;
+	}
+	100%{
+		transform:translateX(0);
+		opacity:1;
+	}
+}
+@-o-keyframes slideLeft {
+	0%{
+		transform:translateX(-20px);
+		opacity:0;
+	}
+	100%{
+		transform:translateX(0);
+		opacity:1;
+	}
+}
+@keyframes slideLeft {
+	0%{
+		transform:translateX(-20px);
+		opacity:0;
+	}
+	100%{
+		transform:translateX(0);
+		opacity:1;
+	}
+}
+
+/* ------ Slide Down ----- */
+@-webkit-keyframes slideDown {
+	0%{
+		transform:translateY(-20px);
+		opacity:0;
+	}
+	100%{
+		transform:translateY(0);
+		opacity:1;
+	}
+}
+@-moz-keyframes slideDown {
+	0%{
+		transform:translateY(-20px);
+		opacity:0;
+	}
+	100%{
+		transform:translateY(0);
+		opacity:1;
+	}
+}
+@-o-keyframes slideDown {
+	0%{
+		transform:translateY(-20px);
+		opacity:0;
+	}
+	100%{
+		transform:translateY(0);
+		opacity:1;
+	}
+}
+@keyframes slideDown {
+	0%{
+		transform:translateY(-20px);
+		opacity:0;
+	}
+	100%{
+		transform:translateY(0);
+		opacity:1;
+	}
+}
+
+/* ------ Slide Up ----- */
+@-webkit-keyframes slideUp {
+	0%{
+		transform:translateY(20px);
+		opacity:0;
+	}
+	100%{
+		transform:translateY(0);
+		opacity:1;
+	}
+}
+@-moz-keyframes slideUp {
+	0%{
+		transform:translateY(20px);
+		opacity:0;
+	}
+	100%{
+		transform:translateY(0);
+		opacity:1;
+	}
+}
+@-o-keyframes slideUp {
+	0%{
+		transform:translateY(20px);
+		opacity:0;
+	}
+	100%{
+		transform:translateY(0);
+		opacity:1;
+	}
+}
+@keyframes slideUp {
+	0%{
+		transform:translateY(20px);
+		opacity:0;
+	}
+	100%{
+		transform:translateY(0);
+		opacity:1;
+	}
+}

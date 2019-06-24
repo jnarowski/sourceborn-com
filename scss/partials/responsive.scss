@@ -1,0 +1,290 @@
+@media only screen and (min-width:240px) and (max-width:850px){ 
+	main {
+		section {
+			&#about {
+				&:before {
+					content:none;
+				}
+
+				.container {
+					.row {
+						.col-12 {
+							&:first-child {
+								h1 {
+									text-align:center;
+
+									&:after {
+										display:block;
+										margin:0 auto;
+										margin-top:20px;
+										width:288px;
+										height:236px;
+										background:url('/images/jp-mobile.png') no-repeat center center/cover;
+										content:'';
+									}
+								}
+
+								p {
+									max-width:100%;
+								}
+							}
+							h2 {
+								text-align:center;
+							}
+						}
+						.col-md-4 {
+							&.col-12 {
+								img {
+									margin:0 20px 0 0;
+									float:left;
+								}
+								p {
+									max-width:100%;
+								}
+							}
+						}
+						.col-md-3 {
+							text-align:center;
+							
+							a {
+								display:inline-block;
+								margin:10px 0 10px 0;
+
+								img {
+									margin:0;
+								}
+
+								&:last-child {
+									display:none;
+								}
+							}
+						}
+					}
+				}
+			}
+			&#business {
+				.container {
+					.row {
+						.col-12 {
+							&:first-child {
+								h3 {
+									text-align:center;
+								}
+							}
+						}
+						.col-lg-9 {
+							div {
+								&:first-child {
+									text-align:center;
+								}
+								&.item {
+									p {
+										max-width:100%;
+									}
+									&:last-child {
+										&:after {
+											height:120px;
+											bottom:inherit;
+										}
+									}
+								}
+							}
+						}
+						.col-lg-3 {
+							margin-top:60px;
+						}
+					}
+				}
+			}
+			&#technical {
+				.container {
+					.row {
+						.col-12 {
+							h3 {
+								text-align:center;
+							}
+						}
+						.col-lg-7 {
+							.item {
+								strong {
+									text-align:center;
+								}
+								p {
+									max-width:100%;
+								}
+							}
+						}
+					}
+				}
+			}
+			&#portfolio {
+				.container {
+					.row {
+						.col-12 {
+							&:first-child {
+								margin-bottom:20px;
+							}
+						}
+						.col-lg-3 {
+							img {
+								display:block;
+								margin:0 auto;
+								margin-top:60px;
+							}
+							span {
+								display:block;
+								margin:0 auto;
+								margin-top:20px;
+								text-align:center;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	footer {
+		background:#000;
+
+		.container {
+			.row {
+				.col-12 {
+					h5 {
+						text-align:center;
+					}
+					form {
+						max-width:100%;
+
+						fieldset {
+							&:last-child {
+								button {
+									max-width:100%;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width:240px) and (max-width:450px){ 
+	header {
+		&:before {
+			position:absolute;
+			top:20px;
+			left:15px;
+			display:block;
+			width:160px;
+			height:32px;
+			background:url('/images/source-born.svg') no-repeat center center/cover;
+			content:'';
+		}
+		.container {
+			.row {
+				.col-12 {
+					img {
+						display:none;
+					}
+					p {
+						margin:0 0 30px 0;
+					}
+				}
+			}
+		}
+	}
+	main {
+		overflow:hidden;
+
+		section {
+			&#about {
+				.container {
+					.row {
+						.col-md-4 {
+							img {
+								max-width:110px;
+							}
+							b {
+								margin-top:10px;
+							}
+						}
+					}
+				}
+			}
+			&#business {
+				.container {
+					.row {
+						.col-12 {
+							h3 {
+								font-size:42px;
+							}
+						}
+						.col-lg-9 {
+							.item {
+								padding:0 0 60px 50px;
+
+								img {
+									height:32px;
+								}
+								span {
+									margin:0 0 20px 0;
+								}
+
+								&:after {
+									left:14px;
+								}
+							}
+						}
+						.col-lg-3 {
+							margin-top:40px;
+						}
+					}
+				}
+			}
+			&#technical {
+				.container {
+					.row {
+						.col-12 {
+							h3 {
+								font-size:42px;
+							}
+						}
+						.col-lg-5 {
+							.skills {
+								padding:30px 10px 30px 10px;
+
+								img {
+									margin-right:10px;
+								}
+							}
+						}
+					}
+				}
+			}
+			&#portfolio {
+				.container {
+					.row {
+						.col-12 {
+							h4 {
+								font-size:42px;
+								text-align:center;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	footer {
+		.container {
+			.row {
+				.col-12 {
+					h5 {
+						font-size:42px;
+					}
+				}
+			}
+		}
+	}
+}
